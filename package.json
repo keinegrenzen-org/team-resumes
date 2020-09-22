@@ -1,0 +1,21 @@
+{
+  "name": "team-resumes",
+  "version": "1.0.0",
+  "main": "assets/main.js",
+  "author": "Barthy <barthy@keinegrenzen.org>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "paper-css": "^0.4.1",
+    "remixicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.31.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.1",
+    "webpack-notifier": "^1.6.0"
+  },
+  "scripts": {
+    "watch": "encore dev --watch"
+  }
+}

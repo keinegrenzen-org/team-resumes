@@ -1,0 +1,222 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Raban Rzany | keinegrenzen.org Team{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet"
+          href="https://use.typekit.net/qoh5jxk.css"
+    >
+    {{ encore_entry_link_tags('resume') }}
+{% endblock %}
+
+{% block body %}
+    <section class="resume sheet">
+        <main class="content">
+            <div class="headline">
+                <div class="icon-wrapper">
+                    <img class="icon"
+                         src="{{ asset('icons/sound-module-fill.svg') }}"
+                         alt="Berufserfahrung"
+                    >
+                </div>
+                <h3 class="title">Berufserfahrung</h3>
+            </div>
+
+            <div class="entry">
+                <div class="time">
+                    seit 2017
+                </div>
+                <div class="description">
+                    <h4>Selbstständiger Tontechniker</h4>
+                    <p>Referenzen:
+                        ℅ pop festival,
+                        weekend festival,
+                        litcologne,
+                        Disneys Alladin Musical,
+                        Disneys Tarzan Musical,
+                        sneakerness,
+                        sneaker x,
+                        CBE &amp; Yuca,
+                        Juse Ju,
+                        UMSE,
+                        Ahzumjot,
+                        T9,
+                        Makeda,
+                        Apollo Brown,
+                        Daisy Grow Yellow,
+                        ENNA,
+                        Larry,
+                        YRRRE
+                        uvm.
+                    </p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    seit 2018
+                </div>
+                <div class="description">
+                    <h4>FoH Techniker für Goldroger</h4>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    2015-2020
+                </div>
+                <div class="description">
+                    <h4>Initiative Kölner Jazzhaus e.V.<br>(Stadtgarten Köln)</h4>
+                    <p>Fachkraft für Veranstaltungstechnik</p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    2017
+                </div>
+                <div class="description">
+                    <h4>Veranstalter der ZugUmZug Partyreihe</h4>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    2019
+                </div>
+                <div class="description">
+                    <h4>Stagetech für Roosevelt</h4>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    2019
+                </div>
+                <div class="description">
+                    <h4>Technische Leitung keinegrenzen Festival</h4>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    2019
+                </div>
+                <div class="description">
+                    <h4>TL/FoH Techniker für Sparkling Tour</h4>
+                </div>
+            </div>
+            <hr>
+            <div class="headline">
+                <div class="icon-wrapper">
+                    <img class="icon"
+                         src="{{ asset('icons/book-open-fill.svg') }}"
+                         alt="Ausbildung"
+                    >
+                </div>
+                <h3 class="title">Ausbildung</h3>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    2014-2018
+                </div>
+                <div class="description">
+                    <h4>Georg Simon Ohm Berufskolleg</h4>
+                    <p>Fachkraft für Veranstaltungstechnik</p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    2015-2018
+                </div>
+                <div class="description">
+                    <h4>Initiative Kölner Jazzhaus e.V.</h4>
+                    <p>Fachkraft für Veranstaltungstechnik</p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    2014-2015
+                </div>
+                <div class="description">
+                    <h4>Contour Veranstaltungstechnik GmbH</h4>
+                    <p>Fachkraft für Veranstaltungstechnik</p>
+                </div>
+            </div>
+        </main>
+        <aside class="sidebar">
+            <div class="persona">
+                <div class="image-wrapper">
+                    <img class="resume-image"
+                         src="{{ asset('/images/raban-rzany.jpg') }}"
+                    >
+                </div>
+
+                <h1 class="name">Raban Rzany</h1>
+                <h2 class="sub-line">Selbstständiger Tontechniker</h2>
+            </div>
+            <div class="contact">
+                <ul class="contact-list">
+                    <li>
+                        <div class="contact-item">
+                            <img src="{{ asset('icons/mail-fill.svg') }}"
+                                 alt="Raban per E-Mail kontaktieren"
+                                 class="icon"
+                            >
+                            <a href="mailto:rabanrzany@gmail.com"
+                               title="Raban per E-Mail kontaktieren"
+                               class="label"
+                            >
+                                rabanrzany@gmail.com
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-item">
+                            <img src="{{ asset('icons/phone-fill.svg') }}"
+                                 alt="Raban anrufen"
+                                 class="icon"
+                            >
+                            <a href="tel:004915205660864"
+                               title="Raban anrufen"
+                               class="label"
+                            >
+                                +49&thinsp;152&thinsp;05&thinsp;66&thinsp;08&thinsp;64
+                            </a>
+                        </div>
+                    </li>
+                    <li class="print-hidden">
+                        <div class="contact-item">
+                            <img src="{{ asset('icons/whatsapp-fill.svg') }}"
+                                 alt="Raban per WhatsApp kontaktieren"
+                                 class="icon"
+                            >
+                            <a href="https://wa.me/4915205660864"
+                               title="Raban WhatsApp kontaktieren"
+                               class="label"
+                            >
+                                Per WhatsApp schreiben
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="skills-hobbies">
+                <h4>Sprachen</h4>
+                <p>
+                    <strong>Deutsch</strong>
+                    <br>
+                    <small>Muttersprache</small>
+                </p>
+                <p>
+                    <strong>Englisch</strong>
+                    <br>
+                    <small>Gut in Wort und Schrift</small>
+                </p>
+                <h4>Hobbies</h4>
+                <p>
+                    <strong>Musikproduktion</strong>
+                    <br>
+                    <small>(seit 2013)</small>
+                </p>
+                <p><strong>Bastelarbeiten am Motorrad</strong></p>
+            </div>
+        </aside>
+    </section>
+{% endblock %}
