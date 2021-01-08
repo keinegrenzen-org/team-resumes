@@ -1,0 +1,194 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Vincent Wolf | keinegrenzen.org Team{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet"
+          href="https://use.typekit.net/qoh5jxk.css"
+    >
+    {{ encore_entry_link_tags('resume') }}
+{% endblock %}
+
+{% block body %}
+    <section class="resume sheet">
+        <main class="content">
+            <div class="headline">
+                <div class="icon-wrapper">
+                    <img class="icon"
+                         src="{{ asset('icons/work.svg') }}"
+                         alt="Berufserfahrung"
+                    >
+                </div>
+                <h3 class="title">Berufserfahrung</h3>
+            </div>
+
+            <div class="entry">
+                <div class="time">
+                    seit 2018
+                </div>
+                <div class="description">
+                    <h4>Firmengründung und Mitarbeit Modefirma R.Salim_Clo</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    02/2015
+                </div>
+                <div class="description">
+                    <h4>Berufspraktikum bei Metallbau Markus Delfosse e.K., Bonn Poppelsdorf</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    09/2014
+                </div>
+                <div class="description">
+                    <h4>Berufspraktikum bei Alfred Kribbe Schreinereibetrieb GmbH, Bonn Beuel</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    08/2014
+                </div>
+                <div class="description">
+                    <h4>Berufspraktikum KFZ-Mechaniker bei RKG Rheinische Kraftwagen GmbH & Co. KG, Bonn Mehlem</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    06/2012
+                </div>
+                <div class="description">
+                    <h4>Berufspraktikum bei Musik Baum, Bonn Bad Godesberg</h4>
+                    <p></p>
+                </div>
+            </div>
+            <hr>
+            <div class="headline">
+                <div class="icon-wrapper">
+                    <img class="icon"
+                         src="{{ asset('icons/book-open-fill.svg') }}"
+                         alt="Ausbildung"
+                    >
+                </div>
+                <h3 class="title">Ausbildung</h3>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    03/2017-03/2018
+                </div>
+                <div class="description">
+                    <h4>Rheinische Friedrich-Wilhelms-Universität Bonn</h4>
+                    <p>Bachelorstudiengang Physik</p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    10/2014-03/2017
+                </div>
+                <div class="description">
+                    <h4>Technische Hochschule Köln</h4>
+                    <p>Bachelorstudiengang Fahrzeugtechnik</p>
+                </div>
+            </div>
+            <div class="entry">
+                <div class="time">
+                    08/2006-07/2014
+                </div>
+                <div class="description">
+                    <h4>Clara-Schumann-Gymnasium Bonn</h4>
+                    <p>Abitur mit Durchschnittsnote 2,7</p>
+                </div>
+            </div>
+        </main>
+        <aside class="sidebar">
+            <div class="persona">
+                <div class="image-wrapper">
+                    <img class="resume-image"
+                         src="{{ asset('/images/vincent-wolf.jpg') }}"
+                    >
+                </div>
+
+                <h1 class="name">Vincent Wolf</h1>
+            </div>
+            <div class="contact">
+                <ul class="contact-list">
+                    <li>
+                        <div class="contact-item">
+                            <img src="{{ asset('icons/mail-fill.svg') }}"
+                                 alt="Vincent per E-Mail kontaktieren"
+                                 class="icon"
+                            >
+                            <a href="mailto:vincentwolf1@web.de"
+                               title="Vincent per E-Mail kontaktieren"
+                               class="label"
+                            >
+                               vincentwolf1@web.de
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-item">
+                            <img src="{{ asset('icons/phone-fill.svg') }}"
+                                 alt="Vincent anrufen"
+                                 class="icon"
+                            >
+                            <a href="tel:00491631446745"
+                               title="Vincent anrufen"
+                               class="label"
+                            >
+                                +49&thinsp;163&thinsp;144&thinsp;67&thinsp;45
+                            </a>
+                        </div>
+                    </li>
+                    <li class="print-hidden">
+                        <div class="contact-item">
+                            <img src="{{ asset('icons/whatsapp-fill.svg') }}"
+                                 alt="Vincent per WhatsApp kontaktieren"
+                                 class="icon"
+                            >
+                            <a href="https://wa.me/491631446745"
+                               title="Vincent WhatsApp kontaktieren"
+                               class="label"
+                            >
+                                Per WhatsApp schreiben
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="skills-hobbies">
+                <h4>Sprachen</h4>
+                <p>
+                    <strong>Deutsch</strong>
+                    <br>
+                    <small>Muttersprache</small>
+                </p>
+                <p>
+                    <strong>Englisch</strong>
+                    <br>
+                    <small>Fließend in Wort und Schrift (Sprachniveau B2)</small>
+                </p>
+                <h4>Hobbies</h4>
+                <p>
+                    <strong>Gitarre spielen</strong>
+                </p>
+                <p>
+                    <strong>Sport & Fitness</strong>
+                </p>
+                <p>
+                    <strong>Technik & Heimwerken</strong>
+                </p>
+                <p>
+                    <strong>Kochen</strong>
+                </p>
+            </div>
+        </aside>
+    </section>
+{% endblock %}
